@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./17.css" />
+  </head>
+  <body>
+    <div class="main">
+      1
+      <p><input type="text" placeholder="Плейсхолдер" /></p>
+      <p><input type="text" value="Value" /></p>
+      <p><input type="text" value="disabled" disabled /></p>
+      <p><input type="password" value="Valuea" /></p>
+      <p><textarea placeholder="Введите текст"></textarea></p>
+      <p><input type="button" value="Кнопка через тег input" /></p>
+      <button>Кнопка через тег button</button>
+    </div>
+    <div class="main">
+      2
+      <form action="#">
+        <input id="inp" type="text" placeholder="Плейсхолдер" />
+        <label for="inp"
+          >Это метка для инпута - нажмите на меня - и инпут получит
+          фокус!</label
+        >
+      </form>
+    </div>
+    <div class="main">
+      <p>3</p>
+      <p>
+        <input type="checkbox" id="checkbox1" />
+        <label for="checkbox1"
+          >Это метка для чекбокса: нажмите на меня - чекбокс сменит
+          галочку!</label
+        >
+      </p>
+      <p>
+        <input type="checkbox" id="checkbox2" checked />
+        <label for="checkbox2">Я отмечен по умолчанию!</label>
+      </p>
+      <p>
+        <input type="checkbox" id="checkbox3" disabled checked />
+        <label for="checkbox3">Я disabled!</label>
+      </p>
+      <div class="main">
+        Это группа радиокнопок - только одна из них может быть отмечена!
+        <p>
+          <input type="radio" name="test" id="radio1" /><label for="radio1"
+            >Это метка для радио</label
+          >
+        </p>
+        <p>
+          <input type="radio" name="test" id="radio2" /><label for="radio2"
+            >Это метка для радио</label
+          >
+        </p>
+      </div>
+    </div>
+    <div class="main">
+      <p>5</p>
+      <input type="file" name="fortest" />
+    </div>
+    <div class="main">
+      <p>6</p>
+      <fieldset>
+        <legend>Выберите кнопочку</legend>
+        <input type="radio" name="test" />
+        <input type="radio" name="test" />
+        <input type="radio" name="test" />
+        <input type="text" placeholder="Ваше имя..." />
+      </fieldset>
+      <fieldset>
+        <legend>Выберите еще кнопочку</legend>
+        <input type="radio" name="test" />
+        <input type="radio" name="test" />
+        <input type="radio" name="test" />
+        <input type="radio" disabled="disabled" />
+        <input type="radio" disabled="disabled" />
+      </fieldset>
+    </div>
+  </body>
+</html>
