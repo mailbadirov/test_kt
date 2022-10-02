@@ -1,0 +1,29 @@
+div {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+img {
+  float: left;
+  width: 200px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+#more {
+  text-align: right;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

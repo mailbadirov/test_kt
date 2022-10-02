@@ -1,0 +1,16 @@
+#square {
+  width: 150px;
+  height: 150px;
+  margin: 50px 20px;
+  text-align: justify;
+  border: 1px solid red;
+}
+
+#test {
+  width: 200px;
+  margin: 50px 20px;
+  text-align: justify;
+  border: 1px solid green;
+  padding: 10px 30px;
+}
+

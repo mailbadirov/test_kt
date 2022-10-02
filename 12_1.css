@@ -1,0 +1,35 @@
+#block {
+  width: 65%;
+  margin: 10px auto;
+  padding: 30px;
+  text-align: justify;
+  border: 1px solid red;
+  border-radius: 30px;
+}
+
+p {
+  font-size: 17px;
+}
+
+h1,
+h2 {
+  color: brown;
+}
+
+#first {
+  color: red;
+}
+#second {
+  color: green;
+}
+
+#writer {
+  text-align: right;
+  padding-right: 70px;
+  font-style: italic;
+}
+
+a:hover {
+  color: green;
+  text-decoration: none;
+}

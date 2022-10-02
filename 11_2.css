@@ -1,0 +1,8 @@
+#test {
+  width: 50%;
+  margin: 50px auto;
+  text-align: justify;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 30px;
+}
