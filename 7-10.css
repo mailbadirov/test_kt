@@ -1,0 +1,117 @@
+div {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid #000;
+}
+
+.three,
+.four {
+  width: 400px;
+  border-collapse: collapse;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.three {
+  height: 200px;
+}
+
+#hello1 {
+  text-decoration: underline;
+}
+
+#hello2 {
+  text-decoration: line-through;
+}
+
+#hello3 {
+  text-decoration: overline;
+}
+
+#form1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 5px;
+}
+
+#form2 {
+  width: 450px;
+  height: 200px;
+  border: 1px dotted blue;
+  margin: 5px;
+}
+
+#form3 {
+  width: 100px;
+  height: 100px;
+  border: 1px dashed green;
+  margin: 5px;
+}
+
+#form4 {
+  width: 450px;
+  height: 150px;
+  border: 1px solid;
+  border-color: blue green red black;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+#form5 {
+  width: 200px;
+  height: 200px;
+  border: 1px dotted green;
+  border-radius: 10px 20px 30px 30px;
+  margin: 5px;
+}
+
+#form6 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  border-radius: 60px;
+  margin: 5px;
+}
+
+#linkcolored1 a {
+  text-decoration: none;
+  color: blue;
+}
+
+#linkcolored1 a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+#linkcolored2 a {
+  text-decoration: underline;
+  color: red;
+}
+
+#linkcolored2 a:hover {
+  color: blue;
+  text-decoration: line-through;
+}
+
+#linkcolored3 a {
+  text-decoration: none;
+  color: black;
+}
+
+#linkcolored3 a:hover {
+  color: red;
+  text-decoration: overline;
+}

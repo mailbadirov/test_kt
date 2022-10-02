@@ -1,0 +1,9 @@
+body {
+  white-space: pre-wrap;
+}
+
+p {
+  padding: 2px;
+  border: 1px solid black;
+  color: green;
+}
