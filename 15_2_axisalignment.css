@@ -1,0 +1,38 @@
+.main {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#parent {
+  border: 1px solid red;
+  width: 70%;
+  margin: auto;
+  height: 400px;
+  display: flex;
+}
+.child {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+.parent {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.parent2 {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.parent3 {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.parent4 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.parent5 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
