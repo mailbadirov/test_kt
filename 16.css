@@ -185,7 +185,7 @@
   transition-duration: 2s;
 }
 
-.fin {
+.hint-example {
   border: 1px solid red;
   width: 100%;
   height: 30px;
@@ -206,6 +206,6 @@
   transition: all 1s;
 }
 
-.fin:hover + div {
+.hint-example:hover + div {
   left: 500px;
 }
