@@ -1,0 +1,119 @@
+.main div {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.block1 {
+  left: 30px;
+  top: 30px;
+  border: 1px solid red;
+}
+
+.block2 {
+  left: 100px;
+  top: 100px;
+  border: 1px solid blue;
+}
+
+.block3 {
+  left: 170px;
+  top: 170px;
+  border: 1px solid green;
+}
+
+.block4 {
+  left: 30px;
+  top: 250px;
+  border: 1px solid red;
+}
+
+.block5 {
+  left: 100px;
+  top: 250px;
+  border: 1px solid blue;
+}
+
+.block6 {
+  left: 170px;
+  top: 250px;
+  border: 1px solid green;
+}
+
+.block7 {
+  left: 30px;
+  top: 320px;
+  border: 1px solid red;
+}
+
+.block8 {
+  left: 60px;
+  top: 350px;
+  border: 1px solid blue;
+}
+
+.block9 {
+  left: 90px;
+  top: 380px;
+  border: 1px solid green;
+}
+
+.block10 {
+  left: 30px;
+  top: 420px;
+  background-color: red;
+}
+
+.block11 {
+  left: 60px;
+  top: 450px;
+  background-color: blue;
+}
+
+.block12 {
+  left: 90px;
+  top: 480px;
+  background-color: green;
+}
+
+.block13 {
+  left: 200px;
+  top: 420px;
+  background-color: red;
+  z-index: 0;
+}
+
+.block14 {
+  left: 230px;
+  top: 450px;
+  background-color: blue;
+  z-index: 2;
+}
+
+.block15 {
+  left: 260px;
+  top: 480px;
+  background-color: green;
+  z-index: 1;
+}
+
+.block16 {
+  left: 320px;
+  top: 420px;
+  background-color: red;
+  z-index: 3;
+}
+
+.block17 {
+  left: 350px;
+  top: 450px;
+  background-color: blue;
+  z-index: 2;
+}
+
+.block18 {
+  left: 380px;
+  top: 480px;
+  background-color: green;
+  z-index: 1;
+}

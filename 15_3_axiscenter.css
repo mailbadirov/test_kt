@@ -1,0 +1,48 @@
+.main {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#parent {
+  border: 1px solid red;
+  width: 70%;
+  margin: auto;
+  height: 400px;
+  display: flex;
+}
+.child {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+}
+
+.parent {
+  flex-direction: row;
+  justify-content: center;
+	align-items: center; /* центрируем по побочной оси */
+}
+.parent2 {
+  flex-direction: row-reverse;
+  justify-content: center;
+	align-items: center; /* центрируем по побочной оси */
+}
+.parent3 {
+  flex-direction: row;
+  justify-content: flex-end;
+	align-items: center; /* центрируем по побочной оси */
+}
+.parent4 {
+  flex-direction: row;
+  justify-content: space-between;
+	align-items: center; /* центрируем по побочной оси */
+}
+.parent5 {
+  flex-direction: column;
+  justify-content: center;
+	align-items: center; /* центрируем по побочной оси */
+}
+.parent6 {
+  flex-direction: column-reverse;
+  justify-content: center;
+	align-items: center; /* центрируем по побочной оси */
+}

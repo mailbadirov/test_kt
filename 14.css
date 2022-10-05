@@ -1,0 +1,68 @@
+div {
+  margin: 5px;
+  border: 1px solid black;
+}
+
+#elem ~ li {
+  color: red;
+}
+
+#possel1 li:first-child,
+#possel1_2 li:first-child {
+  color: red;
+}
+
+#possel2 li:last-child,
+#possel2_2 li:last-child {
+  color: green;
+}
+
+#possel3 li:first-child,
+#possel3_2 li:first-child {
+  color: red;
+}
+
+#possel3 li:last-child,
+#possel3_2 li:last-child {
+  color: green;
+}
+
+#possel4 li:nth-child(3),
+#possel4_2 li:nth-child(3) {
+  color: red;
+}
+
+#possel5 li:nth-child(odd),
+#possel5_2 li:nth-child(odd) {
+  color: red;
+}
+
+#possel5 li:nth-child(even),
+#possel5_2 li:nth-child(even) {
+  color: green;
+}
+
+#possel6 li:nth-child(3n),
+#possel6_2 li:nth-child(3n) {
+  color: red;
+}
+
+#possel7 li:nth-last-child(2),
+#possel7_2 li:nth-last-child(2) {
+  color: red;
+}
+
+li:only-child {
+  color: red;
+}
+
+#possel9 li {
+  width: 100px;
+  margin: 5px;
+  border: 1px solid red;
+}
+
+#possel9 li:empty {
+  width: 100px;
+  border: 1px solid blue;
+}
