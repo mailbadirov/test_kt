@@ -1,0 +1,18 @@
+img {
+  margin-bottom: 10px;
+}
+
+#first-image {
+  float: left;
+  margin-right: 20px;
+}
+
+#second-image {
+  float: right;
+  margin-left: 20px;
+}
+
+p {
+  width: 45%;
+  text-align: justify;
+}
